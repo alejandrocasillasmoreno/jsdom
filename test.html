@@ -1,0 +1,32 @@
+<html>
+
+<div id="contendor"></div>
+
+<div class="contendio"></div>
+<div class="contenido"></div>
+</html>
+
+<script>
+
+const contendeor = document.getElementById('contenedor');
+const contenido = document.getElementsByClassName('contenedor');
+
+
+const parrafo = document.createElement('p');
+parrafo.textContent = "Soy un nuevo párrafo creado";
+
+const parrafo2 = document.getElementById('p');
+parrafo2.textContent = "Soy un nuevo párrafo creado";
+//Es un objeto
+//const contenido = document.getElementsByClassName('contenido');
+
+//Lo añadimos.
+contenedor.appendChild(parrafo);
+contendeor .appendChild(parrafo2);
+
+const miImagen = document.createElement('img');
+miImagen.src = 'https://wallpapers.com/images/hd/rick-and-morty-pictures-b3e2pq02sb2fuvy3.jpg';
+contendeor.appendChild(miImagen);
+//
+
+</script>
